@@ -15,7 +15,7 @@ export const HeroCard = ({
     first_appearance,
     characters
 }) => {
-    const heroImageURL = useMemo(() => `/assets/heroes/${id}.jpg`, [id]);
+    const heroImageURL = useMemo(() => `/heroes/${id}.jpg`, [id]);
 
     return (
         <div className="col animate__animated animate__fadeIn">
